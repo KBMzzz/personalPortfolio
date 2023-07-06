@@ -1,3 +1,3 @@
 # personalPortfolio
 
-My personal portfolio showcasing my projects and skills.
+My personal portfolio showcasing my skills and projects
