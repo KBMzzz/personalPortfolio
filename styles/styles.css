@@ -159,7 +159,11 @@ header .hero h1 span {
   align-items: center;
   padding: 2rem;
   margin: 1.5rem 0rem;
-  width: 90%;
+  width: 100%;
+}
+#portfolio .projContainer .projDetails {
+  margin: 0rem 0rem 0rem 1.5rem;
+  width: 50%;
 }
 #portfolio .projContainer img {
   width: 50%;

@@ -19,9 +19,12 @@
     align-items: center;
     padding: 2rem;
     margin: 1.5rem 0rem;
-    width: 90%;
+    width: 100%;
+    .projDetails {
+      margin: 0rem 0rem 0rem 1.5rem;
+      width: 50%;
+    }
     img {
-      //   width: 400px;
       width: 50%;
     }
     button {
