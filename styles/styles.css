@@ -145,6 +145,7 @@ header .hero h1 span {
   background-size: 500px;
 }
 #portfolio h2 {
+  font-size: 2rem;
   text-align: center;
 }
 #portfolio .proj {
@@ -172,6 +173,37 @@ header .hero h1 span {
   border-style: none;
 }
 #portfolio .projContainer button a {
+  color: #1c1c1c;
+  text-decoration: none;
+  display: block;
+  padding: 5px 10px;
+}
+
+#contact {
+  padding: 4rem 0rem;
+}
+#contact .socialIcons {
+  display: flex;
+  justify-content: space-between;
+}
+#contact .socialIcons .icon {
+  color: #1c1c1c;
+  font-size: 3rem;
+  text-align: center;
+  transition: 0.3s;
+}
+#contact .socialIcons .icon .rightSection form {
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
+  border: none;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+#contact .socialIcons .icon .rightSection form button {
+  border-style: none;
+}
+#contact .socialIcons .icon .rightSection form button a {
   color: #1c1c1c;
   text-decoration: none;
   display: block;
