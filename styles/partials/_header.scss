@@ -1,0 +1,86 @@
+@use "./variables" as *;
+
+header {
+  // NAVIGATION BAR SECTION
+  .navBar {
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 10;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    width: 100%;
+    background-color: $primaryOrange;
+    .wrapper {
+      display: flex;
+      justify-content: space-between;
+    }
+    h2,
+    .navLinks {
+      align-self: center;
+      color: $primaryBlack;
+    }
+    ul {
+      list-style: none;
+      text-transform: uppercase;
+      font-size: 0.9rem;
+      li {
+        padding: 0px 10px;
+        display: inline-block;
+      }
+      .contact {
+        border: 2px solid $primaryBlack;
+        padding: 0%;
+        transition: 0.3s;
+      }
+      .contact:hover {
+        background-color: $primaryBlack;
+      }
+
+      a:hover {
+        color: white;
+      }
+      a {
+        color: $primaryBlack;
+        text-decoration: none;
+        display: block;
+        transition: 0.3s;
+        padding: 5px 10px;
+      }
+    }
+  }
+
+  // HERO SECTION
+
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: calc(100vh - 100px);
+    .heroImg {
+      display: flex;
+      justify-content: center;
+      width: 70%;
+    }
+    .container {
+      display: flex;
+      align-items: center;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+    }
+    .wrapper {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    h1 {
+      color: $primaryBlack;
+      font-weight: 400;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      span {
+        font-weight: 600;
+      }
+    }
+  }
+}

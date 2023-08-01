@@ -1,0 +1,40 @@
+@use "./variables" as *;
+
+#skills {
+  .wrapper {
+    h2 {
+      font-size: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 3rem 0rem;
+    }
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        list-style: none;
+        margin: 2rem 2rem;
+        width: 12%;
+        p {
+          text-align: center;
+          transition: 0.3s;
+        }
+        .devIcon {
+          color: #6e6e6e;
+          font-size: 3rem;
+          text-align: center;
+          transition: 0.3s;
+        }
+        .devIcon:hover,
+        p:hover {
+          color: $primaryOrange;
+        }
+      }
+    }
+  }
+}

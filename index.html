@@ -4,23 +4,220 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,800;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Kanit:ital,wght@0,100;0,400;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/7dfc5536e9.js"
+      crossorigin="anonymous"
+    ></script>
+
     <title>Chris Vaz</title>
   </head>
   <body>
+    <!-- add effect that when you mouse over it changes to VAZ and then when moused off to change back to CHRIS -->
     <header>
-      <h1>Hello, my name is Chris Vaz</h1>
-      <nav>
-        <ul>
-          <il><a href="#home">Home</a></il>
-          <il><a href="#about">About</a></il>
-          <il><a href="#portfolio">Portfolio</a></il>
-          <il><a href="#contact">Contact</a></il>
-        </ul>
-      </nav>
+      <div class="navBar">
+        <div class="wrapper">
+          <h2>CV</h2>
+          <div class="navLinks">
+            <nav>
+              <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li class="contact"><a href="#contact">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="hero">
+        <div class="wrapper">
+          <div class="container">
+            <h1>
+              Chris Vaz
+              <br />
+              <span>Web Developer</span>
+            </h1>
+            <img
+              src="./images/header/undraw_programming_re_kg9v.svg"
+              alt="cartoon illustration of a man sitting at a desk writing code on a laptop, behind his desk is a window."
+              class="heroImg"
+            />
+          </div>
+        </div>
+      </div>
     </header>
-    <section></section>
-    <section></section>
-    <section></section>
+    <section id="about">
+      <div class="wrapper">
+        <div class="container">
+          <div class="leftSection">
+            <h2>About Me</h2>
+            <img
+              src="./images/about/undraw_dev_productivity_re_fylf.svg"
+              alt="cartoon illustration of a man standing infront of a monitor"
+            />
+          </div>
+          <div class="rightSection">
+            <p>
+              Hello! I'm Chris, a Front-End Developer located in Toronto. My
+              core focus revolves around delivering the best user experience
+              through writing clean and accessible code. Additionally, providing
+              an encouraging environment to enable those around me to learn and
+              grow.
+            </p>
+
+            <p>
+              As a recent graduate of Juno College's Web Development Bootcamp, I
+              am thrilled to delve into various technologies, collaborate with
+              fellow professionals, and receive guidance from mentors to gain a
+              deeper understanding of the ever-evolving tech landscape.
+            </p>
+            <p>
+              When I'm not busy coding, you can find me staying updated on my
+              favorite soccer teams, enjoying manga, and staying active in the
+              gym.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills">
+      <div class="wrapper">
+        <h2>Skills</h2>
+        <ul>
+          <li>
+            <i class="devIcon devicon-html5-plain"></i>
+            <p>HTML5</p>
+          </li>
+          <li>
+            <i class="devIcon devicon-css3-plain"></i>
+            <p>CSS3</p>
+          </li>
+          <li>
+            <i class="devIcon devicon-javascript-plain"></i>
+            <p>JavaScript (ES6)</p>
+          </li>
+          <li>
+            <i class="devIcon devicon-sass-original"></i>
+            <p>Sass</p>
+          </li>
+          <li>
+            <i class="devIcon devicon-react-original"></i>
+            <p>React</p>
+          </li>
+          <li>
+            <i class="devIcon devicon-firebase-plain"></i>
+            <p>Firebase</p>
+          </li>
+          <li>
+            <i class="devIcon devicon-git-plain"></i>
+            <p>Git & Version control</p>
+          </li>
+          <li>
+            <i class="devIcon fa fa-cogs" aria-hidden="true"></i>
+            <p>REST APIs</p>
+          </li>
+          <li>
+            <i class="devIcon fa fa-universal-access" aria-hidden="true"></i>
+            <p>Accessibility</p>
+          </li>
+          <li>
+            <i class="devIcon fas fa-mobile-alt"></i>
+            <p>Responsive Design</p>
+          </li>
+          <li></li>
+          <!-- <li>
+            <i class="devIcon devicon-photoshop-plain"></i>
+          </li> -->
+        </ul>
+      </div>
+    </section>
+    <section id="portfolio">
+      <div class="wrapper">
+        <h2>My Projects</h2>
+        <div class="proj">
+          <div class="projContainer">
+            <img src="./images/portfolio/p1.png" alt="" />
+            <div class="projDetails">
+              <h3>Multipage PSD Conversion</h3>
+              <p>
+                In this project I learned how to apply my HTML, CSS and SCSS
+                skills to recreate a multi-page PSD using design files.
+              </p>
+              <button>
+                <a href="" target="_blank" class="testLink">Live</a>
+              </button>
+              <button>
+                <a
+                  href="https://github.com/KBMzzz/chris-vaz-project-1.git"
+                  target="_blank"
+                  class="gitLink"
+                  >Repo</a
+                >
+              </button>
+            </div>
+          </div>
+
+          <div class="projContainer">
+            <img src="./images/portfolio/p2.png" alt="" />
+            <div class="projDetails">
+              <h3>Integrating Firebase with your e-store</h3>
+              <p>
+                Paired programming project to integrate Firebase and a fully
+                functioning cart app into a previously created multi-page
+                e-store (design provided by Juno College).
+              </p>
+              <button>
+                <a href="" target="_blank" class="testLink">Live</a>
+              </button>
+              <button>
+                <a
+                  href="https://github.com/chris-and-erika/projectTwoCartApp.git"
+                  target="_blank"
+                  class="gitLink"
+                  >Repo</a
+                >
+              </button>
+            </div>
+          </div>
+
+          <div class="projContainer">
+            <img src="" alt="" />
+            <div class="projDetails">
+              <h3>Lorem</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste
+                rem sint natus nihil ducimus earum tempore beatae molestias
+                nostrum neque!
+              </p>
+              <button>
+                <a href="" target="_blank" class="testLink">Live</a>
+              </button>
+              <button>
+                <a href="" target="_blank" class="gitLink">Repo</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact"></section>
     <footer></footer>
   </body>
 </html>
