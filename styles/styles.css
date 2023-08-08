@@ -186,28 +186,68 @@ header .hero h1 span {
   display: flex;
   justify-content: space-between;
 }
+#contact .socialIcons .leftSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+}
+#contact .socialIcons .info {
+  display: flex;
+  flex-direction: column;
+}
+#contact .socialIcons .social {
+  display: flex;
+  justify-content: space-around;
+}
+#contact .socialIcons .rightSection {
+  width: 60%;
+}
+#contact .socialIcons .rightSection input {
+  height: 2rem;
+}
+#contact .socialIcons .rightSection textarea {
+  padding-top: 0.5rem;
+}
+#contact .socialIcons .rightSection input,
+#contact .socialIcons .rightSection textarea {
+  border: 2px solid #1c1c1c;
+  margin-bottom: 0.6rem;
+  width: 100%;
+  padding-left: 0.7rem;
+}
+#contact .socialIcons .rightSection form {
+  border: none;
+}
+#contact .socialIcons .rightSection form button {
+  border-style: none;
+  width: 100%;
+  padding: 1rem;
+  color: white;
+  background-color: #1c1c1c;
+  transition: 0.3s;
+}
+#contact .socialIcons .rightSection form button:hover {
+  color: white;
+  background-color: green;
+  cursor: pointer;
+  font-size: larger;
+}
+#contact .socialIcons a {
+  text-decoration: none;
+  color: #1c1c1c;
+}
+#contact .socialIcons a:hover {
+  color: white;
+}
 #contact .socialIcons .icon {
   color: #1c1c1c;
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-align: center;
   transition: 0.3s;
 }
-#contact .socialIcons .icon .rightSection form {
-  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
-  border: none;
-  padding: 35px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-#contact .socialIcons .icon .rightSection form button {
-  border-style: none;
-}
-#contact .socialIcons .icon .rightSection form button a {
-  color: #1c1c1c;
-  text-decoration: none;
-  display: block;
-  padding: 5px 10px;
+#contact .socialIcons .icon:hover {
+  color: #ffac78;
 }
 
 html {
