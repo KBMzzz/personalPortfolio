@@ -27,7 +27,6 @@ header .navBar ul li {
 }
 header .navBar ul .contact {
   border: 2px solid #1c1c1c;
-  padding: 0%;
   transition: 0.3s;
 }
 header .navBar ul .contact:hover {
@@ -248,6 +247,22 @@ header .hero h1 span {
 }
 #contact .socialIcons .icon:hover {
   color: #ffac78;
+}
+
+footer {
+  padding: 2rem;
+}
+footer .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .wrapper h3 {
+  font-size: 0.8rem;
+}
+footer .wrapper h3 a {
+  text-decoration: none;
+  color: #1c1c1c;
 }
 
 html {

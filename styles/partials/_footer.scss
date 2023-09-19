@@ -1,0 +1,17 @@
+@use "./variables" as *;
+
+footer {
+  padding: 2rem;
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h3 {
+      font-size: 0.8rem;
+      a {
+        text-decoration: none;
+        color: $primaryBlack;
+      }
+    }
+  }
+}
