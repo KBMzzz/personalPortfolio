@@ -4,7 +4,6 @@ header .navBar {
   z-index: 10;
   padding-top: 0.6rem;
   padding-bottom: 0.6rem;
-  width: 100%;
   background-color: #ffac78;
 }
 header .navBar .wrapper {
@@ -100,7 +99,7 @@ header .hero h1 span {
 }
 #about .wrapper .container .rightSection p {
   line-height: 1.4rem;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.1rem;
 }
 
 #skills .wrapper h2 {
@@ -161,6 +160,9 @@ header .hero h1 span {
   margin: 1.5rem 0rem;
   width: 100%;
 }
+#portfolio .projContainer .stack {
+  padding: 0.5rem 0 0 0;
+}
 #portfolio .projContainer .projDetails {
   margin: 0rem 0rem 0rem 1.5rem;
   width: 50%;
@@ -168,14 +170,19 @@ header .hero h1 span {
 #portfolio .projContainer img {
   width: 50%;
 }
-#portfolio .projContainer button {
-  border-style: none;
-}
-#portfolio .projContainer button a {
-  color: #1c1c1c;
+#portfolio .projContainer a {
+  background-color: #1c1c1c;
+  border: 2px solid #1c1c1c;
+  transition: 0.3s;
+  color: white;
   text-decoration: none;
-  display: block;
+  display: inline-block;
   padding: 5px 10px;
+}
+#portfolio .projContainer a:hover {
+  transition: 0.3s;
+  color: #1c1c1c;
+  background-color: white;
 }
 
 #contact {
@@ -196,6 +203,7 @@ header .hero h1 span {
   flex-direction: column;
 }
 #contact .socialIcons .social {
+  width: 40%;
   display: flex;
   justify-content: space-around;
 }
@@ -250,21 +258,33 @@ header .hero h1 span {
 }
 
 footer {
-  padding: 2rem;
-}
-footer .wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: #ffac78;
 }
 footer .wrapper h3 {
-  font-size: 0.8rem;
+  padding: 1rem 0rem;
+  font-size: 0.65rem;
+  text-align: center;
 }
 footer .wrapper h3 a {
   text-decoration: none;
   color: #1c1c1c;
 }
 
+@media (max-width: 1200px) {
+  #about {
+    padding: 3rem 4rem;
+  }
+  #about .wrapper .container {
+    flex-direction: column;
+  }
+  #about .wrapper .container .leftSection img {
+    padding-bottom: 2.5rem;
+  }
+  #about .wrapper .container .rightSection {
+    width: 100%;
+    text-align: center;
+  }
+}
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -533,6 +553,7 @@ html {
 
 .wrapper {
   max-width: 1200px;
+  width: 90%;
   margin: 0 auto;
 }
 

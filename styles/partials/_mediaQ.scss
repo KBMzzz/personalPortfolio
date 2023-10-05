@@ -1,0 +1,19 @@
+@media (max-width: 1200px) {
+  #about {
+    padding: 3rem 4rem;
+    .wrapper {
+      .container {
+        flex-direction: column;
+        .leftSection {
+          img {
+            padding-bottom: 2.5rem;
+          }
+        }
+        .rightSection {
+          width: 100%;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
