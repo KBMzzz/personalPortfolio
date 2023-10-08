@@ -112,6 +112,8 @@ header .hero h1 span {
 #skills .wrapper ul {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 #skills .wrapper ul li {
   display: flex;
@@ -202,6 +204,9 @@ header .hero h1 span {
   display: flex;
   flex-direction: column;
 }
+#contact .socialIcons .info h2 {
+  font-size: 0.35;
+}
 #contact .socialIcons .social {
   width: 40%;
   display: flex;
@@ -277,12 +282,40 @@ footer .wrapper h3 a {
   #about .wrapper .container {
     flex-direction: column;
   }
+  #about .wrapper .container .leftSection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+  }
   #about .wrapper .container .leftSection img {
     padding-bottom: 2.5rem;
   }
   #about .wrapper .container .rightSection {
     width: 100%;
     text-align: center;
+  }
+}
+@media (max-width: 1080px) {
+  header .hero .wrapper .container {
+    flex-direction: column-reverse;
+  }
+  header .hero .wrapper .container h1 {
+    padding-top: 2.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  header .hero .wrapper .container span {
+    padding-top: 0.5rem;
+  }
+  #about .wrapper .container .leftSection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
   }
 }
 html {

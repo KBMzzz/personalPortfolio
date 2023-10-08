@@ -5,6 +5,11 @@
       .container {
         flex-direction: column;
         .leftSection {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          justify-content: center;
+          width: 60%;
           img {
             padding-bottom: 2.5rem;
           }
@@ -15,5 +20,42 @@
         }
       }
     }
+  }
+}
+
+@media (max-width: 1080px) {
+  header {
+    .hero {
+      .wrapper {
+        .container {
+          flex-direction: column-reverse;
+          h1 {
+            padding-top: 2.5rem;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+          span {
+            padding-top: 0.5rem;
+          }
+        }
+      }
+    }
+  }
+  #about {
+    .wrapper {
+      .container {
+        .leftSection {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          justify-content: center;
+          width: 60%;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 940px) {
   }
 }
