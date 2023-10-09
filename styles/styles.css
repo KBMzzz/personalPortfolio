@@ -114,6 +114,7 @@ header .hero h1 span {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  padding: 0;
 }
 #skills .wrapper ul li {
   display: flex;
@@ -316,6 +317,35 @@ footer .wrapper h3 a {
     flex-direction: column;
     justify-content: center;
     width: 60%;
+  }
+}
+@media (max-width: 1080px) and (max-width: 940px) {
+  #portfolio .projContainer {
+    flex-direction: column;
+  }
+  #portfolio .projContainer .projDetails {
+    width: 100%;
+  }
+  #portfolio .projContainer img {
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+  #contact .socialIcons {
+    flex-direction: column;
+  }
+  #contact .socialIcons .leftSection {
+    flex-direction: row;
+  }
+  #contact .socialIcons .social {
+    width: 20%;
+    margin: 2rem;
+  }
+  #contact .socialIcons .social i {
+    padding: 0.5rem;
+  }
+  #contact .socialIcons .rightSection {
+    padding-top: 1rem;
+    width: 100%;
   }
 }
 html {

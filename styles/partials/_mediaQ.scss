@@ -57,5 +57,36 @@
   }
 
   @media (max-width: 940px) {
+    #portfolio {
+      .projContainer {
+        flex-direction: column;
+        .projDetails {
+          width: 100%;
+        }
+        img {
+          width: 100%;
+          padding-bottom: 1rem;
+        }
+      }
+    }
+    #contact {
+      .socialIcons {
+        flex-direction: column;
+        .leftSection {
+          flex-direction: row;
+        }
+        .social {
+          width: 20%;
+          margin: 2rem;
+          i {
+            padding: 0.5rem;
+          }
+        }
+        .rightSection {
+          padding-top: 1rem;
+          width: 100%;
+        }
+      }
+    }
   }
 }
