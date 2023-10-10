@@ -1,6 +1,7 @@
 @use "./variables" as *;
 
 header {
+  height: 100vh;
   // NAVIGATION BAR SECTION
   .navBar {
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
