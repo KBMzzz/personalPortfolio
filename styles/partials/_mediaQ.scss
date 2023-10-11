@@ -90,5 +90,36 @@
     }
   }
   @media (max-width: 810px) {
+    nav {
+      .menuMain {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 100;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        transition: top 1s ease-in;
+        display: none;
+      }
+      .menuMain,
+      .menuClose {
+        display: block;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+      }
+      .menuOpen {
+        display: block;
+      }
+
+      .icon i {
+        display: inline-block;
+        padding: 12px;
+      }
+    }
   }
 }

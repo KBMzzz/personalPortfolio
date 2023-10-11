@@ -13,8 +13,7 @@ header .navBar .wrapper {
   display: flex;
   justify-content: space-between;
 }
-header .navBar h2,
-header .navBar .navLinks {
+header .navBar h2 {
   align-self: center;
   color: #1c1c1c;
 }
@@ -75,6 +74,13 @@ header .hero h1 {
 }
 header .hero h1 span {
   font-weight: 600;
+}
+header nav .menuMain,
+header nav .menuOpen,
+header nav .menuClose {
+  font-size: 2rem;
+  cursor: pointer;
+  display: none;
 }
 
 #about {
@@ -349,6 +355,36 @@ footer .wrapper h3 a {
   #contact .socialIcons .rightSection {
     padding-top: 1rem;
     width: 100%;
+  }
+}
+@media (max-width: 1080px) and (max-width: 810px) {
+  nav .menuMain {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    transition: top 1s ease-in;
+    display: none;
+  }
+  nav .menuMain,
+  nav .menuClose {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+  nav .menuOpen {
+    display: block;
+  }
+  nav .icon i {
+    display: inline-block;
+    padding: 12px;
   }
 }
 html {

@@ -14,8 +14,7 @@ header {
       display: flex;
       justify-content: space-between;
     }
-    h2,
-    .navLinks {
+    h2 {
       align-self: center;
       color: $primaryBlack;
     }
@@ -80,6 +79,16 @@ header {
       span {
         font-weight: 600;
       }
+    }
+  }
+  // Hamburger Menu
+  nav {
+    .menuMain,
+    .menuOpen,
+    .menuClose {
+      font-size: 2rem;
+      cursor: pointer;
+      display: none;
     }
   }
 }
