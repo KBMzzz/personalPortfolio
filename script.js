@@ -11,5 +11,5 @@ function show() {
 }
 
 function close() {
-  menuMain.stylee.top = "-100%";
+  menuMain.style.top = "-100%";
 }
