@@ -81,12 +81,12 @@ header .navLinks {
   align-items: center;
 }
 header nav .menuOpen {
-  font-size: 2rem;
+  font-size: 1.8rem;
   cursor: pointer;
   display: none;
 }
 header nav .menuClose {
-  font-size: 2rem;
+  font-size: 1.8rem;
   display: none;
   cursor: pointer;
 }
