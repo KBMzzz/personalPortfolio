@@ -22,6 +22,7 @@ header .navBar ul {
   list-style: none;
   text-transform: uppercase;
   font-size: 0.9rem;
+  padding-left: 0rem;
 }
 header .navBar ul li {
   padding: 0px 10px;
