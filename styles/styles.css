@@ -16,6 +16,7 @@ header .navBar .wrapper {
 header .navBar h2 {
   align-self: center;
   color: #1c1c1c;
+  margin: 0.9rem 0;
 }
 header .navBar ul {
   list-style: none;
@@ -75,12 +76,19 @@ header .hero h1 {
 header .hero h1 span {
   font-weight: 600;
 }
-header nav .menuMain,
-header nav .menuOpen,
-header nav .menuClose {
+header .navLinks {
+  display: flex;
+  align-items: center;
+}
+header nav .menuOpen {
   font-size: 2rem;
   cursor: pointer;
   display: none;
+}
+header nav .menuClose {
+  font-size: 2rem;
+  display: none;
+  cursor: pointer;
 }
 
 #about {
@@ -358,7 +366,10 @@ footer .wrapper h3 a {
   }
 }
 @media (max-width: 1080px) and (max-width: 810px) {
-  nav .menuMain {
+  header nav .menuOpen {
+    display: flex;
+  }
+  header nav .menuMain {
     height: 100vh;
     position: fixed;
     top: 0;
@@ -368,23 +379,15 @@ footer .wrapper h3 a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: #ffac78;
     transition: top 1s ease-in;
     display: none;
   }
-  nav .menuMain,
-  nav .menuClose {
+  header nav .menuMain .menuClose {
     display: block;
     position: absolute;
     top: 1rem;
     right: 1rem;
-  }
-  nav .menuOpen {
-    display: block;
-  }
-  nav .icon i {
-    display: inline-block;
-    padding: 12px;
   }
 }
 html {

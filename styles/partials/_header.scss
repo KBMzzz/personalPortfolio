@@ -17,6 +17,7 @@ header {
     h2 {
       align-self: center;
       color: $primaryBlack;
+      margin: 0.9rem 0;
     }
     ul {
       list-style: none;
@@ -82,13 +83,23 @@ header {
     }
   }
   // Hamburger Menu
+
+  .navLinks {
+    display: flex;
+    align-items: center;
+  }
+
   nav {
-    .menuMain,
-    .menuOpen,
-    .menuClose {
+    .menuOpen {
       font-size: 2rem;
       cursor: pointer;
       display: none;
+    }
+
+    .menuClose {
+      font-size: 2rem;
+      display: none;
+      cursor: pointer;
     }
   }
 }
