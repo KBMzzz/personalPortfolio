@@ -63,6 +63,7 @@
       .projContainer {
         flex-direction: column;
         .projDetails {
+          margin: 0rem;
           width: 100%;
         }
         img {
@@ -120,6 +121,20 @@
             position: absolute;
             top: 1rem;
             right: 1rem;
+          }
+        }
+      }
+    }
+    #about {
+      padding: 3rem 0rem;
+      .wrapper {
+        .container {
+          .leftSection {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            width: 60%;
           }
         }
       }

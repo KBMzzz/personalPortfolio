@@ -58,7 +58,7 @@ header .hero {
 header .hero .heroImg {
   display: flex;
   justify-content: center;
-  width: 70%;
+  width: 90%;
 }
 header .hero .container {
   display: flex;
@@ -208,6 +208,13 @@ header nav .menuClose {
   color: #1c1c1c;
   background-color: white;
 }
+#portfolio .eStore {
+  flex-direction: row-reverse;
+}
+#portfolio .eStore .projDetails {
+  margin: 0rem 1.5rem 0rem 0rem;
+  width: 50%;
+}
 
 #contact {
   padding: 4rem 0rem;
@@ -345,6 +352,7 @@ footer .wrapper h3 a {
     flex-direction: column;
   }
   #portfolio .projContainer .projDetails {
+    margin: 0rem;
     width: 100%;
   }
   #portfolio .projContainer img {
@@ -397,6 +405,16 @@ footer .wrapper h3 a {
     position: absolute;
     top: 1rem;
     right: 1rem;
+  }
+  #about {
+    padding: 3rem 0rem;
+  }
+  #about .wrapper .container .leftSection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
   }
 }
 html {
