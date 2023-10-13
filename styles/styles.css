@@ -186,6 +186,7 @@ header nav .menuClose {
 }
 #portfolio .projContainer .stack {
   padding: 0.5rem 0 0 0;
+  font-weight: 600;
 }
 #portfolio .projContainer .projDetails {
   margin: 0rem 0rem 0rem 1.5rem;
