@@ -1,17 +1,22 @@
 const menuMain = document.querySelector(".menuMain");
 const menuOpen = document.querySelector(".menuOpen");
 const menuClose = document.querySelector(".menuClose");
-
-menuOpen.addEventListener("click", show);
-menuClose.addEventListener("click", close);
+const menuLinks = document.querySelectorAll(".menuMain li a");
 
 function show() {
   menuMain.style.display = "flex";
   menuMain.style.top = "0";
 }
 
-function close() {
+function hide() {
   menuMain.style.top = "-100%";
 }
 
-// fix so it just appears not ease in, when clicked it closes and glides to section specifide
+menuOpen.addEventListener("click", show);
+menuClose.addEventListener("click", hide);
+
+menuLinks.forEach((link) => {
+  link.addEventListener("click", hide);
+});
+
+// make code DRYer
