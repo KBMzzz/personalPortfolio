@@ -429,6 +429,11 @@ footer .wrapper h3 a {
     width: 20%;
   }
 }
+@media (max-width: 1080px) and (max-width: 480px) {
+  header .hero .wrapper .container span {
+    font-size: 1.5rem;
+  }
+}
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
