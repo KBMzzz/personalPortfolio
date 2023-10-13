@@ -382,6 +382,7 @@ footer .wrapper h3 a {
     align-items: center;
     background-color: #ffac78;
     transition: top 1s ease-in;
+    margin: 0;
     display: none;
   }
   header nav .menuMain .menuClose {
