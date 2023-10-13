@@ -94,11 +94,15 @@
   @media (max-width: 810px) {
     header {
       nav {
+        li {
+          margin: 1rem 0;
+        }
         .menuOpen {
-          display: flex;
+          display: block;
         }
         .menuMain {
-          height: 100vh;
+          font-size: 1.5rem;
+          height: 100%;
           position: fixed;
           top: 0;
           right: 0;

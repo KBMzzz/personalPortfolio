@@ -367,11 +367,15 @@ footer .wrapper h3 a {
   }
 }
 @media (max-width: 1080px) and (max-width: 810px) {
+  header nav li {
+    margin: 1rem 0;
+  }
   header nav .menuOpen {
-    display: flex;
+    display: block;
   }
   header nav .menuMain {
-    height: 100vh;
+    font-size: 1.5rem;
+    height: 100%;
     position: fixed;
     top: 0;
     right: 0;
