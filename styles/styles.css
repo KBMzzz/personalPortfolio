@@ -13,10 +13,13 @@ header .navBar .wrapper {
   display: flex;
   justify-content: space-between;
 }
-header .navBar h2 {
+header .navBar .logo {
+  font-size: 2rem;
   align-self: center;
+  font-weight: 800;
   color: #1c1c1c;
   margin: 0.9rem 0;
+  text-decoration: none;
 }
 header .navBar ul {
   list-style: none;
@@ -672,6 +675,7 @@ html {
   font-family: "Montserrat", sans-serif;
   font-size: 125%;
   color: #1c1c1c;
+  scroll-behavior: smooth;
 }
 
 html,

@@ -14,10 +14,13 @@ header {
       display: flex;
       justify-content: space-between;
     }
-    h2 {
+    .logo {
+      font-size: 2rem;
       align-self: center;
+      font-weight: 800;
       color: $primaryBlack;
       margin: 0.9rem 0;
+      text-decoration: none;
     }
     ul {
       list-style: none;
