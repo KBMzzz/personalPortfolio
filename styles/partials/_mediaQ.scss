@@ -28,6 +28,9 @@
 @media (max-width: 1080px) {
   header {
     .hero {
+      .heroImg {
+        width: 90%;
+      }
       .wrapper {
         .container {
           flex-direction: column-reverse;
@@ -135,6 +138,28 @@
             flex-direction: column;
             justify-content: center;
             width: 60%;
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 600px) {
+    #about {
+      .wrapper {
+        .container {
+          .leftSection {
+            h2 {
+              font-size: 1.9rem;
+            }
+          }
+        }
+      }
+    }
+    #skills {
+      .wrapper {
+        ul {
+          li {
+            width: 20%;
           }
         }
       }

@@ -58,7 +58,7 @@ header .hero {
 header .hero .heroImg {
   display: flex;
   justify-content: center;
-  width: 90%;
+  width: 70%;
 }
 header .hero .container {
   display: flex;
@@ -328,6 +328,9 @@ footer .wrapper h3 a {
   }
 }
 @media (max-width: 1080px) {
+  header .hero .heroImg {
+    width: 90%;
+  }
   header .hero .wrapper .container {
     flex-direction: column-reverse;
   }
@@ -416,6 +419,14 @@ footer .wrapper h3 a {
     flex-direction: column;
     justify-content: center;
     width: 60%;
+  }
+}
+@media (max-width: 1080px) and (max-width: 600px) {
+  #about .wrapper .container .leftSection h2 {
+    font-size: 1.9rem;
+  }
+  #skills .wrapper ul li {
+    width: 20%;
   }
 }
 html {
