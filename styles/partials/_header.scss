@@ -59,7 +59,6 @@ header {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 100px;
     height: calc(100vh - 100px);
     .heroImg {
       display: flex;
@@ -78,7 +77,7 @@ header {
       display: flex;
       flex-wrap: wrap;
       justify-content: flex-end;
-      span {
+      div {
         font-weight: 600;
       }
     }

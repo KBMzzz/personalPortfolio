@@ -191,4 +191,17 @@
       }
     }
   }
+  @media (max-width: 368px) {
+    #about {
+      .wrapper {
+        .container {
+          .leftSection {
+            h2 {
+              font-size: 1.7rem;
+            }
+          }
+        }
+      }
+    }
+  }
 }
