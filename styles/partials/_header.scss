@@ -59,6 +59,7 @@ header {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 100px;
     height: calc(100vh - 100px);
     .heroImg {
       display: flex;
@@ -70,10 +71,6 @@ header {
       align-items: center;
       flex-direction: row-reverse;
       justify-content: space-between;
-    }
-    .wrapper {
-      max-width: 1200px;
-      margin: 0 auto;
     }
     h1 {
       color: $primaryBlack;

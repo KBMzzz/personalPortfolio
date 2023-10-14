@@ -53,6 +53,7 @@ header .hero {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-bottom: 100px;
   height: calc(100vh - 100px);
 }
 header .hero .heroImg {
@@ -65,10 +66,6 @@ header .hero .container {
   align-items: center;
   flex-direction: row-reverse;
   justify-content: space-between;
-}
-header .hero .wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
 }
 header .hero h1 {
   color: #1c1c1c;
@@ -162,7 +159,7 @@ header nav .menuClose {
 }
 
 #portfolio {
-  padding: 4rem 0rem;
+  padding: 2rem 0rem;
   background-image: url(/images/orange.jpg);
   background-size: 500px;
 }
@@ -235,7 +232,7 @@ header nav .menuClose {
   flex-direction: column;
 }
 #contact .socialIcons .info h2 {
-  font-size: 0.35;
+  font-size: 1.3rem;
 }
 #contact .socialIcons .social {
   width: 40%;
@@ -419,6 +416,15 @@ footer .wrapper h3 a {
     flex-direction: column;
     justify-content: center;
     width: 60%;
+  }
+  #contact .socialIcons .social {
+    width: 100%;
+    padding: 1rem 0;
+    margin: 0;
+  }
+  #contact .socialIcons .leftSection {
+    text-align: center;
+    flex-direction: column;
   }
 }
 @media (max-width: 1080px) and (max-width: 600px) {
