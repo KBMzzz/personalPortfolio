@@ -58,7 +58,7 @@ header .hero {
 header .hero .heroImg {
   display: flex;
   justify-content: center;
-  width: 70%;
+  width: 60%;
 }
 header .hero .container {
   display: flex;
@@ -66,14 +66,15 @@ header .hero .container {
   flex-direction: row-reverse;
   justify-content: space-between;
 }
-header .hero h1 {
+header .hero .container .heroTitle h1 {
   color: #1c1c1c;
   font-weight: 400;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
 }
-header .hero h1 div {
+header .hero .container .heroTitle h2 {
+  font-size: 2rem;
   font-weight: 600;
 }
 header .navLinks {
@@ -231,7 +232,7 @@ header nav .menuClose {
   flex-direction: column;
 }
 #contact .socialIcons .info h2 {
-  font-size: 1.3rem;
+  font-size: 1.18rem;
 }
 #contact .socialIcons .social {
   width: 40%;
@@ -302,6 +303,9 @@ footer .wrapper h3 a {
 }
 
 @media (max-width: 1200px) {
+  header .hero .wrapper .container h2 {
+    font-size: 1.8rem;
+  }
   #about {
     padding: 3rem 4rem;
   }
@@ -336,7 +340,7 @@ footer .wrapper h3 a {
     justify-content: center;
     align-items: center;
   }
-  header .hero .wrapper .container span {
+  header .hero .wrapper .container h2 {
     padding-top: 0.5rem;
   }
   #about .wrapper .container .leftSection {
@@ -435,7 +439,7 @@ footer .wrapper h3 a {
   }
 }
 @media (max-width: 1080px) and (max-width: 480px) {
-  header .hero .wrapper .container span {
+  header .hero .wrapper .container h2 {
     font-size: 1.5rem;
   }
 }

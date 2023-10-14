@@ -1,6 +1,17 @@
 @use "./variables" as *;
 
 @media (max-width: 1200px) {
+  header {
+    .hero {
+      .wrapper {
+        .container {
+          h2 {
+            font-size: 1.8rem;
+          }
+        }
+      }
+    }
+  }
   #about {
     padding: 3rem 4rem;
     .wrapper {
@@ -40,7 +51,7 @@
             justify-content: center;
             align-items: center;
           }
-          span {
+          h2 {
             padding-top: 0.5rem;
           }
         }
@@ -95,6 +106,8 @@
       }
     }
   }
+
+  // HAMBURGER MENU
   @media (max-width: 810px) {
     header {
       nav {
@@ -183,7 +196,7 @@
       .hero {
         .wrapper {
           .container {
-            span {
+            h2 {
               font-size: 1.5rem;
             }
           }

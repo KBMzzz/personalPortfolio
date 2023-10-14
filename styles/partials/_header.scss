@@ -63,22 +63,25 @@ header {
     .heroImg {
       display: flex;
       justify-content: center;
-      width: 70%;
+      width: 60%;
     }
     .container {
       display: flex;
       align-items: center;
       flex-direction: row-reverse;
       justify-content: space-between;
-    }
-    h1 {
-      color: $primaryBlack;
-      font-weight: 400;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: flex-end;
-      div {
-        font-weight: 600;
+      .heroTitle {
+        h1 {
+          color: $primaryBlack;
+          font-weight: 400;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: flex-end;
+        }
+        h2 {
+          font-size: 2rem;
+          font-weight: 600;
+        }
       }
     }
   }
