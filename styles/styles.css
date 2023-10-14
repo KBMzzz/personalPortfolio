@@ -304,6 +304,7 @@ footer .wrapper h3 a {
 
 @media (max-width: 1200px) {
   header .hero .wrapper .container h2 {
+    text-align: center;
     font-size: 1.8rem;
   }
   #about {
@@ -318,6 +319,9 @@ footer .wrapper h3 a {
     flex-direction: column;
     justify-content: center;
     width: 60%;
+  }
+  #about .wrapper .container .leftSection h2 {
+    text-align: center;
   }
   #about .wrapper .container .leftSection img {
     padding-bottom: 2.5rem;
@@ -339,6 +343,7 @@ footer .wrapper h3 a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
   header .hero .wrapper .container h2 {
     padding-top: 0.5rem;
@@ -440,7 +445,7 @@ footer .wrapper h3 a {
 }
 @media (max-width: 1080px) and (max-width: 480px) {
   header .hero .wrapper .container h2 {
-    font-size: 1.5rem;
+    font-size: 1.45rem;
   }
 }
 @media (max-width: 1080px) and (max-width: 368px) {

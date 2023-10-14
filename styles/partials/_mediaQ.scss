@@ -6,6 +6,7 @@
       .wrapper {
         .container {
           h2 {
+            text-align: center;
             font-size: 1.8rem;
           }
         }
@@ -23,6 +24,9 @@
           flex-direction: column;
           justify-content: center;
           width: 60%;
+          h2 {
+            text-align: center;
+          }
           img {
             padding-bottom: 2.5rem;
           }
@@ -50,6 +54,7 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            text-align: center;
           }
           h2 {
             padding-top: 0.5rem;
@@ -197,7 +202,7 @@
         .wrapper {
           .container {
             h2 {
-              font-size: 1.5rem;
+              font-size: 1.45rem;
             }
           }
         }
