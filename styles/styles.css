@@ -1,5 +1,5 @@
 header {
-  height: 100vh;
+  min-height: 100vh;
 }
 header .navBar {
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
@@ -51,9 +51,8 @@ header .navBar ul a {
 header .hero {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
-  height: calc(100vh - 100px);
 }
 header .hero .heroImg {
   display: flex;
@@ -65,13 +64,18 @@ header .hero .container {
   align-items: center;
   flex-direction: row-reverse;
   justify-content: space-between;
+  min-height: 89.5vh;
+}
+header .hero .container .heroTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: right;
+  width: 40%;
 }
 header .hero .container .heroTitle h1 {
   color: #1c1c1c;
   font-weight: 400;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
 }
 header .hero .container .heroTitle h2 {
   font-size: 2rem;
@@ -304,7 +308,6 @@ footer .wrapper h3 a {
 
 @media (max-width: 1200px) {
   header .hero .wrapper .container h2 {
-    text-align: center;
     font-size: 1.8rem;
   }
   #about {
@@ -336,17 +339,20 @@ footer .wrapper h3 a {
     width: 90%;
   }
   header .hero .wrapper .container {
-    flex-direction: column-reverse;
-  }
-  header .hero .wrapper .container h1 {
-    padding-top: 2.5rem;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-direction: column-reverse;
+  }
+  header .hero .wrapper .container .heroTitle {
+    width: 100%;
+  }
+  header .hero .wrapper .container .heroTitle h1 {
+    padding-top: 2.5rem;
     text-align: center;
   }
-  header .hero .wrapper .container h2 {
+  header .hero .wrapper .container .heroTitle h2 {
     padding-top: 0.5rem;
+    text-align: center;
   }
   #about .wrapper .container .leftSection {
     display: flex;

@@ -1,7 +1,7 @@
 @use "./variables" as *;
 
 header {
-  height: 100vh;
+  min-height: 100vh;
   // NAVIGATION BAR SECTION
   .navBar {
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
@@ -57,10 +57,9 @@ header {
   .hero {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    height: calc(100vh - 100px);
-    // delete
+
     .heroImg {
       display: flex;
       justify-content: center;
@@ -71,13 +70,17 @@ header {
       align-items: center;
       flex-direction: row-reverse;
       justify-content: space-between;
+      min-height: 89.5vh;
+
       .heroTitle {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        text-align: right;
+        width: 40%;
         h1 {
           color: $primaryBlack;
           font-weight: 400;
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: flex-end;
         }
         h2 {
           font-size: 2rem;
